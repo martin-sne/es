@@ -1,0 +1,39 @@
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[hidelinks=false]{hyperref}
+\usepackage{color}
+
+\title{This is a Test}
+\author{Alois}
+\begin{document}
+
+\maketitle
+\clearpage
+\tableofcontents
+\clearpage
+
+
+\section{Introduction}
+\label{sec:introduction}
+\input{sections/introduction.tex}
+
+\section{Research Questions}
+\label{sec:rq}
+\input{sections/rq.tex}
+
+\section{Approach}
+\label{sec:approach}
+\input{sections/approach.tex}
+
+\section{Quotes and Fonts}
+\label{sec:qf}
+\input{sections/qf.tex}
+
+\begin{thebibliography}{99}
+\bibitem{companion} M. Goossens, F. Mittelbach, et al. \emph{The \LaTeX\ Companion}. Addison-Wesley. 1994.
+\bibitem{WC:1953} Martin Leucht.
+\end{thebibliography}
+
+\end{document}
